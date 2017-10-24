@@ -3,7 +3,7 @@ package com.company;
 import org.junit.Assert;
 import org.junit.Test;
 
-<<<<<<< HEAD
+
 /**
  * Created by yesrefm on 22/10/2017.
  */
@@ -63,10 +63,6 @@ public class VectorHelper
         }
         return result;
     }
-=======
-
-public class VectorHelper
-{
 
     public int[] trier ( int [] vector){
 
@@ -123,4 +119,4 @@ public class VectorHelper
 
 }
 
->>>>>>> 5c8404489534bc40cc97ca8583e5c69fc40f680d
+
