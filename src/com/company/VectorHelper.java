@@ -32,17 +32,7 @@ public class VectorHelper
 
     }
 
-    /**
-     * verfier si deux vecteurr ont la meme taille
-     * @param vector1 le 1er vecteur
-     * @param vector2 le 2eme vecteur
-     * @throws VectorException l'exception qui declanch lorsque deux vecteurs ont la meme taille
-     */
-
-    private void verfVector(int [] vector1,int [] vector2 ) throws VectorException
-    {
-        if(vector1.length!=vector2.length) throw new VectorException();
-    }
+  
 
     /**
      * la somme de deux vecterus
@@ -85,4 +75,19 @@ public class VectorHelper
             j++;
         }
         return result;
+    }
+	
+	  /**
+     * multiplier un vecteur par un scalaire
+     * @param vect le vecteur à multiplier
+     * @param k le scalaire qu
+     * @return
+     */
+    public  int [] multiplier(int [] vect, int k)
+    {
+        for(int i=0;i<vect.length;i++)
+        {
+            vect[i]*=k;
+        }
+        return vect;
     }
