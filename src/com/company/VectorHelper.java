@@ -63,7 +63,13 @@ public class VectorHelper
         }
         return result;
     }
-
+	
+	
+  /** trier un vector
+     * @param vector le vector qu'on veut trier
+     * @return un  vector triee
+     */
+	 
     public int[] trier ( int [] vector){
 
 
@@ -84,7 +90,12 @@ public class VectorHelper
     }
 
    
- 
+  /**
+     * Donne le min et le max d'un vectuer
+     * @param vect le vecteur qu'on veut savoir leur min et max
+     * @return un vectuer (2) avec le min et le max
+     */
+	 
     public int []  min_max(int [] vect)
     {
         int [] result=new int[2];
@@ -106,7 +117,12 @@ public class VectorHelper
       return result;
     }
 
-   
+    /**
+     * multiplier un vecteur par un scalaire
+     * @param vect le vecteur à multiplier
+     * @param k le scalaire qu
+     * @return
+     */
     public  int [] multiplier(int [] vect, int k)
     {
         for(int i=0;i<vect.length;i++)
