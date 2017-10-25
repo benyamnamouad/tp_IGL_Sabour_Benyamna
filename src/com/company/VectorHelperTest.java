@@ -20,8 +20,7 @@ public class VectorHelperTest extends VectorHelper
      * Test de la fonction Somme
      */
     @Test
-    public void testSomme() {
-        Assert.assertArrayEquals(new int []{2,4,6,8,10,12},somme(new int []{1,2,3,4,5,6},new int []{1,2,3,4,5,6}));}  
+    public void testSomme() { Assert.assertArrayEquals(new int []{2,4,6,8,10,12},somme(new int []{1,2,3,4,5,6},new int []{1,2,3,4,5,6}));}
 		
 		 /**
      * Test de la fonction Trier

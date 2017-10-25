@@ -1,4 +1,4 @@
-package com.company;
+/** commentaire 1**/package com.company;
 
 import org.junit.Assert;
 import org.junit.Test;
