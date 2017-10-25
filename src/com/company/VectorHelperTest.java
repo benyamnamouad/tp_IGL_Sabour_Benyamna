@@ -44,7 +44,7 @@ public class VectorHelperTest extends VectorHelper
      * Test de la fonction multiplier
      */
     @Test
-    public void testMultiplier()//test multiplication
+    public void testMultiplier()
     {
         Assert.assertArrayEquals(new int[]{2, 4, 6, 8, 10, 12}, multiplier(new int[]{1, 2, 3, 4, 5, 6},2));
     }
