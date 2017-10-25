@@ -5,7 +5,7 @@ import org.junit.Test;
 
 
 /**
- * Created by yesrefm on 22/10/2017.
+ * Created by sabour on 22/10/2017.
  */
 public class VectorHelper
 {
