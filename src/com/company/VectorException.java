@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Created by yesrefm on 24/10/2017.
+ * Created by oussama on 24/10/2017.
  */
 public class VectorException extends Exception {
     public VectorException()
